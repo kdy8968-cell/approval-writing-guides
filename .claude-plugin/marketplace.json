@@ -1,0 +1,13 @@
+{
+  "name": "approval-writing-guides",
+  "description": "업무 보고와 결재 문서 작성을 돕는 플러그인",
+  "owner": {
+    "name": "Approval Writing Guides"
+  },
+  "plugins": [
+    {
+      "name": "approval-writing",
+      "source": "./plugins/approval-writing"
+    }
+  ]
+}

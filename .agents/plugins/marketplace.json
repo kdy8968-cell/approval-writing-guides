@@ -1,0 +1,20 @@
+{
+  "name": "approval-writing-guides",
+  "interface": {
+    "displayName": "결재 문서 작성 가이드"
+  },
+  "plugins": [
+    {
+      "name": "approval-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/approval-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

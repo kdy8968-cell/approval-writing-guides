@@ -1,0 +1,12 @@
+{
+  "name": "approval-writing",
+  "version": "1.0.0",
+  "description": "업무 보고와 결재 문서의 서식 선택, 입력값, 본문 및 작성자 확인사항을 준비합니다.",
+  "author": {
+    "name": "Approval Writing Guides"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "결재 문서 작성 도우미"
+  }
+}
