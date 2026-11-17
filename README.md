@@ -1,6 +1,6 @@
 # 결재 문서 작성 도우미
 
-업무 보고, 기안, 협조, 지출, 채용·근태 등 결재 문서 초안을 작성하는 한국어 플러그인입니다. 버전은 1.0.0입니다. 가이드에 나오는 화면과 값은 작성 방법을 보여 주는 예시입니다. 실제 서식의 항목·필수 조건·결재선을 기준으로 작성하세요.
+업무 보고, 기안, 협조, 지출, 채용·근태 등 결재 문서 초안을 위한 한국어 가이드입니다. Claude용 플러그인 버전은 1.0.0입니다. 가이드에 나오는 화면과 값은 작성 방법을 보여 주는 예시입니다. 실제 서식의 항목·필수 조건·결재선을 기준으로 작성하세요.
 
 ## 가이드로 바로 작성하기
 
@@ -12,19 +12,13 @@
 
 ## 플러그인 설치하기
 
-압축을 풀거나 배포 저장소를 복제한 뒤, 이 README가 있는 최상위 폴더에서 다음 명령을 실행합니다. 설치 목록에서 `approval-writing@approval-writing-guides`의 버전과 설치 상태를 확인합니다.
-
 ### Codex
 
-```powershell
-codex plugin marketplace add .
-codex plugin add approval-writing@approval-writing-guides
-codex plugin list --marketplace approval-writing-guides
-```
-
-Git 저장소로 배포된 경우에는 첫 명령의 `.` 대신 해당 저장소의 HTTPS URL을 사용할 수 있습니다.
+이 저장소의 Codex용 플러그인 배포는 종료했습니다. Codex에서는 위 작성 가이드의 요청문을 복사하거나 가이드 Markdown 파일을 대화에 첨부해 사용할 수 있습니다.
 
 ### Claude Code
+
+저장소를 복제하거나 압축을 푼 뒤, 이 README가 있는 최상위 폴더에서 다음 명령을 실행합니다.
 
 ```text
 /plugin marketplace add .
@@ -37,7 +31,7 @@ Git에 배포된 버전은 **Customize → Plugins → Add marketplace**에서 �
 
 ## 설치 후 사용하기
 
-| 하려는 일 | Codex 새 대화에서 사용할 스킬 |
+| 하려는 일 | Claude에서 사용할 스킬 |
 |---|---|
 | 진행 상황과 업무 결과 공유 | `$work-report` |
 | 결재 서식 선택과 초안 작성 | `$approval-forms` |
