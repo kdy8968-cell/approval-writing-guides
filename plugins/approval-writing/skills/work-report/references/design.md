@@ -42,7 +42,7 @@
 
 ## HTML과 표현
 
-- 글꼴: Sans Serif 계열, font-family:sans-serif.
+- 기본 글꼴은 Sans Serif입니다. 바깥 `div`에 `font-family:sans-serif`를 지정해 제목·본문·목록·표에 상속합니다. 붙여넣기로 다른 글꼴이 들어온 곳은 기본값으로 맞춥니다. 문서에 별도로 지정한 글꼴이 있으면 해당 값을 적용합니다.
 - 본문: 14px, 보통 굵기, 왼쪽 정렬, line-height:1.7, 글자색 #30343B.
 - 대제목·소제목의 글자 크기와 위아래 여백은 아래 ‘제목 계층, 문단과 줄바꿈’ 표를 따릅니다. 다른 작성 예시에서 여백이 다르면 본문을 만들 때 이 공통값을 적용합니다.
 - 강조: 핵심 결론·차이·유보 조건만 굵게. 문장 전체·모든 숫자에 강조하지 않습니다. 이모지·장식 배너·AI 메타 문구는 넣지 않습니다.
@@ -89,11 +89,13 @@
 HTML에서 항목 아래 문장이 길어져도 글머리표의 들여쓰기를 유지할 수 있도록 실제 목록 요소를 사용합니다.
 
 ```html
-<p style="margin:12px 0 4px;"><strong>A안 · 기존 시스템 활용</strong></p>
-<ul style="margin:0 0 10px;padding:0 0 0 22px;list-style-type:disc;">
-  <li style="margin:0 0 4px;"><strong>조회 범위</strong>　일별 출퇴근과 근무시간을 받습니다.</li>
-  <li style="margin:0;"><strong>반영 기준</strong>　결재를 마친 뒤 월 마감 자료를 반영합니다.</li>
-</ul>
+<div style="font-family:sans-serif;">
+  <p style="margin:12px 0 4px;"><strong>A안 · 기존 시스템 활용</strong></p>
+  <ul style="margin:0 0 10px;padding:0 0 0 22px;list-style-type:disc;">
+    <li style="margin:0 0 4px;"><strong>조회 범위</strong>　일별 출퇴근과 근무시간을 받습니다.</li>
+    <li style="margin:0;"><strong>반영 기준</strong>　결재를 마친 뒤 월 마감 자료를 반영합니다.</li>
+  </ul>
+</div>
 ```
 
 ### HTML 편집기 적용
@@ -115,7 +117,7 @@ HTML을 쓸 때도 본문은 제목·문단·목록·짧은 표로 구성하고,
 ### 짧은 상태·건수 표 예시
 
 ```html
-<table style="width:auto;max-width:100%;border-collapse:collapse;font-size:14px;">
+<table style="width:auto;max-width:100%;border-collapse:collapse;font-family:sans-serif;font-size:14px;">
   <thead>
     <tr>
       <th scope="col" style="border:1px solid #D9DEE5;padding:8px;text-align:left;">분류 상태</th>
@@ -147,7 +149,7 @@ HTML을 쓸 때도 본문은 제목·문단·목록·짧은 표로 구성하고,
 
 ## 출력 직전 점검
 
-- 사용자 지정 서식이 있으면 그 값을, 없으면 대제목 16px, 소제목·본문 14px, 행간 1.7, 색 #30343B를 적용했는가? 대제목의 위 여백과 하위 항목의 표시가 각 수준에서 일관되고, 제목이 다음 설명과 붙어 있는가?
+- 사용자 지정 서식이 있으면 그 값을, 없으면 기본 글꼴 Sans Serif, 대제목 16px, 소제목·본문 14px, 행간 1.7, 색 #30343B를 적용했는가? 대제목의 위 여백과 하위 항목의 표시가 각 수준에서 일관되고, 제목이 다음 설명과 붙어 있는가?
 - 목록이 실제 글머리표나 번호로 표시되는가? 문단 간격과 같은 문단 안의 줄 간격을 각각 확인했는가?
 - 표의 단위·범위·분모·자료 원천을 알 수 있는가? 좁은 화면에서 표의 오른쪽 열과 숫자가 잘리지 않고, 이미지에 담긴 판단 근거도 본문에서 읽을 수 있는가?
 - 근거 없는 결론·미확인 값을 채우거나 과도한 강조로 확정처럼 보이게 하지 않았는가?

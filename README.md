@@ -6,7 +6,9 @@
 
 1. 목적에 맞는 가이드를 고르고 준비할 자료, 입력 순서, 가상 예시를 확인합니다. [업무 보고 작성 가이드](docs/forms/work-report.md) · [다른 결재 서식 목록](plugins/approval-writing/skills/approval-forms/references/guide-index.md)
 2. 직접 작성하거나, AI에 초안을 요청할 때는 해당 가이드의 요청문을 복사하거나 Markdown 파일을 첨부합니다. 이미 알고 있는 화면 항목명과 업무 메모를 함께 제공합니다.
-3. 초안의 입력값을 실제 화면에 옮깁니다. HTML 본문을 받았고 화면에 HTML 탭이 있으면 코드만 붙여 넣고 Editor에서 표와 줄바꿈을 확인합니다. 제출 전 첨부·연관문서·결재선을 직접 확인합니다.
+3. 초안의 입력값을 실제 화면에 옮깁니다. HTML 본문을 받았고 화면에 HTML 탭이 있으면 코드만 붙여 넣고 Editor에서 글꼴·표·줄바꿈을 확인합니다. 제출 전 첨부·연관문서·결재선을 직접 확인합니다.
+
+본문의 기본 글꼴은 Sans Serif입니다. HTML에서는 바깥 `div`에 `font-family:sans-serif`를 지정합니다. [공통 디자인 기준](plugins/approval-writing/skills/work-report/references/design.md)
 
 > 첨부한 채용 요청서 작성 가이드를 읽고, 가상 출고팀 포장 담당 정규직 1명을 모집하는 요청서를 작성해 주세요. 공고 희망 기간은 11월 16~27일입니다. 화면에 옮길 값, 세부 내용, 제출 전 확인사항을 주세요.
 
