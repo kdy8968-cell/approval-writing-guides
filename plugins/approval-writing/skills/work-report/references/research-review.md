@@ -60,8 +60,8 @@ AI의 확인 질문:
 3. 차이를 보고하나요, 진열 유지나 확대를 판단받으려 하나요?
 
 가정한 답:
-- 실제 작성 조직은 매장지원팀이다. 보고 대상은 리테일 상품 진열 변경 검토이며 보고 범위는 2026년 9월 1~28일이다.
-- 비교는 전후 각 14일이다. 전은 9월 1~14일, 후는 9월 15~28일이다. 예시_POS진열비교.xlsx에 전체 영수증 1,000건·1,100건, 해당 상품 포함 영수증 100건·132건이 정리돼 있다.
+- 실제 작성 조직은 매장지원팀이다. 보고 대상은 리테일 상품 진열 변경 검토이며 보고 범위는 2026년 9월 1–28일이다.
+- 비교는 전후 각 14일이다. 전은 9월 1–14일, 후는 9월 15–28일이다. 예시_POS진열비교.xlsx에 전체 영수증 1,000건·1,100건, 해당 상품 포함 영수증 100건·132건이 정리돼 있다.
 - 방문 고객 수는 없다. 변경 후 할인 행사도 있어 진열만의 영향은 분리하지 못했다.
 - 현재 배치를 유지하면서 할인 종료 후 추가 관찰하는 방향을 검토받고 싶다. 관찰 기간은 협의 전이며 다른 지점 확대는 요청하지 않는다.
 
@@ -73,7 +73,7 @@ AI의 확인 질문:
 | 소속 부서 | 매장지원팀 — 실제 화면의 조직 확인 |
 | 어떤 보고인가요? | 조사·검토 보고 |
 | 보고 대상 업무 | 리테일 상품 진열 변경 검토 |
-| 보고 기간 | 2026-09-01 ~ 2026-09-28 |
+| 보고 기간 | 2026-09-01 – 2026-09-28 |
 
 읽기용 표입니다. 실제 출력은 항목별 복사값과 선택·달력 설정을 나눕니다. 표 전체를 본문에 붙이지 않습니다.
 
@@ -85,7 +85,7 @@ AI의 확인 질문:
 <p style="margin:0 0 10px;">진열 변경 전후 해당 상품이 포함된 영수증 비중은 10.0%에서 12.0%로 2.0%포인트 높아졌습니다. 변경 후 할인 행사도 진행돼 차이를 진열만의 효과로 단정할 수 없습니다.</p>
 <h3 style="font-size:16px;font-weight:700;margin:18px 0 8px;">2. 자료와 확인 결과</h3>
 <table style="border-collapse:collapse;width:100%;font-size:14px;"><thead><tr><th style="border:1px solid #D9DEE5;padding:8px;text-align:left;">항목</th><th style="border:1px solid #D9DEE5;padding:8px;text-align:left;">변경 전 14일</th><th style="border:1px solid #D9DEE5;padding:8px;text-align:left;">변경 후 14일</th></tr></thead><tbody><tr><td style="border:1px solid #D9DEE5;padding:8px;">전체 영수증</td><td style="border:1px solid #D9DEE5;padding:8px;">1,000건</td><td style="border:1px solid #D9DEE5;padding:8px;">1,100건</td></tr><tr><td style="border:1px solid #D9DEE5;padding:8px;">해당 상품 포함 영수증</td><td style="border:1px solid #D9DEE5;padding:8px;">100건</td><td style="border:1px solid #D9DEE5;padding:8px;">132건</td></tr><tr><td style="border:1px solid #D9DEE5;padding:8px;">해당 상품 포함 영수증 비중</td><td style="border:1px solid #D9DEE5;padding:8px;">10.0%</td><td style="border:1px solid #D9DEE5;padding:8px;">12.0%</td></tr></tbody></table>
-<p style="margin:8px 0 10px;">자료: 예시_POS진열비교.xlsx. 비교 전은 9월 1~14일, 비교 후는 9월 15~28일입니다. 비중은 해당 상품 포함 영수증 ÷ 전체 영수증 × 100입니다. 방문 인원 대비 구매 인원 비율과는 다릅니다.</p>
+<p style="margin:8px 0 10px;">자료: 예시_POS진열비교.xlsx. 비교 전은 9월 1–14일, 비교 후는 9월 15–28일입니다. 비중은 해당 상품 포함 영수증 ÷ 전체 영수증 × 100입니다. 방문 인원 대비 구매 인원 비율과는 다릅니다.</p>
 <h3 style="font-size:16px;font-weight:700;margin:18px 0 8px;">3. 한계와 판단 요청</h3>
 <p style="margin:0 0 10px;">방문 고객 수는 확보하지 않았고 할인 행사 영향을 분리하지 못했습니다. 관찰된 영수증 비중 차이를 진열만의 효과로 해석하거나 다른 지점에서도 같은 효과가 난다고 볼 근거는 부족합니다.</p>
 <p style="margin:0 0 10px;">현재 배치를 유지하면서 할인 종료 후 추가 관찰하는 방향을 검토 요청합니다. 관찰 기간은 협의 필요이며 다른 지점 확대는 이번 요청에 포함하지 않습니다.</p>
