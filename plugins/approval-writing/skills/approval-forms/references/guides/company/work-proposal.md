@@ -46,6 +46,8 @@
 - **① 이용료 산정**에는 적용 수량·단가·기간을 밝히고, 지원이나 계약 조건에 따라 금액이 달라지면 비교표로 제시합니다. 세금·재원 등 확인이 남은 조건은 표 아래에 적습니다.
 - **② 승인 후 진행**에는 작성 부서가 할 일, 관계 부서와 협의할 내용, 착수 조건과 결과 공유 시점을 적습니다. 담당이나 일정이 정해지지 않았으면 협의 또는 확인할 사항으로 표시합니다.
 
+사용자가 해당 문서의 글자 크기·줄 높이·문단 간격·제목 표시를 지정했거나 직접 맞춘 서식을 보존하라고 요청한 경우 그 지정을 아래 기본값보다 우선합니다. 예를 들어 13px·추가 문단 여백 없음으로 지정한 문서를 14px·행간 1.7·문단 아래 10px로 임의 변경하지 않습니다. 작성·검수할 때 사용자 지정값과 기본값을 구분합니다.
+
 ## AI로 초안 요청하기
 
 아래 코드블록을 복사해 회사에서 허용한 AI에 붙여 넣고, 아는 항목에 메모를 채웁니다. 플러그인이 설치되어 있으면 `$approval-forms 업무 기안으로 작성해 주세요`와 업무 메모를 입력해도 됩니다.
@@ -100,11 +102,11 @@ HTML은 본문만 코드블록 하나로 주세요. 대제목은 16px 굵게(첫
 
 ```html
 <div style="font-family:sans-serif;font-size:14px;line-height:1.7;color:#30343B;">
-  <h3 style="font-size:16px;font-weight:700;margin:0 0 8px;">승인 요청</h3>
+  <h3 style="font-size:16px;font-weight:700;margin:0 0 8px;text-decoration:underline;">승인 요청</h3>
   <p style="margin:0 0 10px;">11월 23일부터 27일까지 포장 작업대 1대를 재배치해 시범 운영할 수 있도록 승인 요청드립니다.</p>
-  <h3 style="font-size:16px;font-weight:700;margin:24px 0 8px;">추진 근거와 조건</h3>
+  <h3 style="font-size:16px;font-weight:700;margin:24px 0 8px;text-decoration:underline;">추진 근거와 조건</h3>
   <p style="margin:0 0 10px;">포장과 출고가 겹치는 시간대의 이동 동선을 확인하기 위해 기존 작업대를 이용합니다. 업무지원 담당이 작업대 위치와 통행에 지장이 없는지 확인한 뒤 옮깁니다.</p>
-  <h3 style="font-size:16px;font-weight:700;margin:24px 0 8px;">승인 후 조치</h3>
+  <h3 style="font-size:16px;font-weight:700;margin:24px 0 8px;text-decoration:underline;">승인 후 조치</h3>
   <p style="margin:0 0 10px;">업무지원 담당이 시범 기간 중 변경 전후 동선을 비교하고 11월 30일에 결과를 공유할 예정입니다. 상시 적용 여부는 시범 결과를 바탕으로 검토합니다.</p>
 </div>
 ```
